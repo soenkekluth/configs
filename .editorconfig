@@ -12,7 +12,11 @@ trim_trailing_whitespace = true
 indent_style = space
 indent_size = 4
 
-[{.eslintrc.json,.babelrc,package.json,composer.json,jsconfig.json}]
+[{eslintrc,package,composer,jsconfig}.json]
+indent_style = space
+indent_size = 2
+
+[*.{babelrc,eslintrc.json,eslintrc,yml,rc}]
 indent_style = space
 indent_size = 2
 
@@ -29,10 +33,6 @@ insert_final_newline = ignore
 indent_style = ignore
 insert_final_newline = ignore
 
-[**/public/**]
+[{**/public/**, ]}
 indent_style = ignore
 insert_final_newline = ignore
-
-[public/*.scss]
-indent_style = space
-indent_size = 2
