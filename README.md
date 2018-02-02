@@ -1,25 +1,28 @@
 # configs
+
 config files for projects
 
-
 ## Extras
+
+
+### Editor themes
+<https://colorsublime.github.io/>
+
 collection of npm / package scripts & configs of babel webpack rollup
 
 ### **typescript**
 
 <https://www.typescriptlang.org/samples/index.html>
 
-
-
-
-
-
 ### babel
+
 https://github.com/fengyuanchen/cropperjs/blob/master/.babelrc
 https://github.com/aikar/create-flow-pkg/blob/master/skel/.babelrc.js
 https://github.com/heroku/cli-engine/blob/master/.babelrc
 
 ### rollup
+
+https://github.com/jaredpalmer/react-fns/blob/master/rollup.config.js
 https://github.com/fengyuanchen/cropperjs/blob/master/rollup.config.js
 https://github.com/ThrivingKings/animo/blob/master/build.js
 https://github.com/concretesolutions/redux-zero/blob/master/rollup.config.js
@@ -27,29 +30,36 @@ https://github.com/jaredpalmer/react-fns/blob/master/rollup.config.js
 https://github.com/Rich-Harris/degit/blob/master/rollup.config.js
 
 ### webpack
+
 https://github.com/Shopify/draggable/blob/master/webpack.config.js
 
 ### flow
+
 https://github.com/aikar/create-flow-pkg/blob/master/skel/.flowconfig
 https://github.com/cssinjs/jss/blob/master/.flowconfig
 https://github.com/heroku/cli-engine/blob/master/.eslintrc
 
 ### lerna
+
 https://github.com/lingui/js-lingui/blob/master/lerna.json
 
 ### circle ci
+
 https://github.com/lingui/js-lingui/blob/master/circle.yml
 
 ### eslint
+
 https://github.com/aikar/create-flow-pkg/blob/master/skel/.eslintrc.json
 https://github.com/lingui/js-lingui/blob/master/.eslintrc
 https://github.com/lingui/js-lingui/blob/master/.eslintignore
 https://github.com/heroku/cli-engine/blob/master/.eslintrc
 
 ### postcss
+
 https://github.com/fengyuanchen/cropperjs/blob/master/postcss.config.js
 
 ### tsconfig
+
 https://github.com/concretesolutions/redux-zero/blob/master/tsconfig.json
 https://github.com/concretesolutions/redux-zero/blob/master/src/preact/tsconfig.json
 https://github.com/jaredpalmer/react-fns/blob/master/tsconfig.json
@@ -60,7 +70,9 @@ https://github.com/pnpm/pnpm/blob/master/tslint.json
 https://github.com/concretesolutions/redux-zero/blob/master/tslint.json
 
 ### jest
+
 https://github.com/aikar/create-flow-pkg/blob/master/skel/jest.config.js
+
 ```json
 "jest": {
     "preset": "react-native",
@@ -85,8 +97,8 @@ https://github.com/aikar/create-flow-pkg/blob/master/skel/jest.config.js
 
 ### package.json
 
-
 <https://github.com/milligram/milligram/blob/master/package.json>
+
 ```json
 "scripts": {
 		"start": "run-p build watch serve",
@@ -108,6 +120,7 @@ https://github.com/aikar/create-flow-pkg/blob/master/skel/jest.config.js
 ```
 
 https://github.com/fengyuanchen/cropperjs/blob/master/package.json
+
 ```json
 "scripts": {
     "build:css": "postcss src/css/cropper.css --no-map -o dist/cropper.css",
@@ -124,13 +137,11 @@ https://github.com/fengyuanchen/cropperjs/blob/master/package.json
     "start": "npm-run-all --parallel watch:*",
     "test": "node-qunit-phantomjs test/index.html --timeout 10"
   },
-
 ```
-
 
 https://github.com/lodash/lodash-webpack-plugin/blob/master/package.json
 
-```json 
+```json
 "scripts": {
     "build": "babel src --out-dir lib || true",
     "style": "eslint src",
