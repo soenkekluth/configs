@@ -27,3 +27,4 @@ chrome-user-data
 .history
 *.map
 yarn-error.log
+clean.md
