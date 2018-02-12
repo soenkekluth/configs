@@ -10,7 +10,6 @@ collection of npm / package scripts & configs of babel webpack rollup
 
 * <https://colorsublime.github.io/>
 
-
 ### typescript
 
 * <https://www.typescriptlang.org/samples/index.html>
@@ -150,3 +149,8 @@ collection of npm / package scripts & configs of babel webpack rollup
       "test": "mocha --check-leaks --slow 1e3 --compilers js:babel-core/register"
     }
   ```
+
+### Projects with nice configs
+
+<https://github.com/lingui/js-lingui>
+<https://github.com/thejameskyle/unstated>
