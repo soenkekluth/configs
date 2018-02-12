@@ -1,5 +1,7 @@
 # configs
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/soenkekluth/configs.svg)](https://greenkeeper.io/)
+
 config files for projects
 
 ## Extras
