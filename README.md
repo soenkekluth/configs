@@ -48,7 +48,8 @@ collection of npm / package scripts & configs of babel webpack rollup
 * <https://github.com/lingui/js-lingui/blob/master/circle.yml>
 
 ### eslint
-
+* <https://medium.com/@netczuk/your-last-eslint-config-9e35bace2f99>
+* <https://github.com/synacor/eslint-config-synacor>
 * <https://github.com/aikar/create-flow-pkg/blob/master/skel/.eslintrc.json>
 * <https://github.com/lingui/js-lingui/blob/master/.eslintrc>
 * <https://github.com/lingui/js-lingui/blob/master/.eslintignore>
