@@ -1,0 +1,1 @@
+@babel/preset-env @babel/plugin-syntax-dynamic-import @babel/plugin-proposal-class-properties @babel/plugin-proposal-object-rest-spread @babel/plugin-proposal-export-default-from @babel/transform-runtime @babel/plugin-transform-modules-commonjs 

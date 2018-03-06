@@ -49,15 +49,21 @@ collection of npm / package scripts & configs of babel webpack rollup
 
 ### eslint
 * <https://medium.com/@netczuk/your-last-eslint-config-9e35bace2f99>
+* <https://github.com/amilajack/eslint-plugin-compat>
 * <https://github.com/synacor/eslint-config-synacor>
 * <https://github.com/aikar/create-flow-pkg/blob/master/skel/.eslintrc.json>
 * <https://github.com/lingui/js-lingui/blob/master/.eslintrc>
 * <https://github.com/lingui/js-lingui/blob/master/.eslintignore>
 * <https://github.com/heroku/cli-engine/blob/master/.eslintrc>
 
+### browserconfig
+* <https://github.com/ai/browserslist-example>
+* <https://github.com/amilajack/eslint-plugin-compat>
+
 ### postcss
 
 * <https://github.com/fengyuanchen/cropperjs/blob/master/postcss.config.js>
+* <https://github.com/jonathantneal/postcss-preset-env>
 
 ### tsconfig
 
@@ -151,7 +157,50 @@ collection of npm / package scripts & configs of babel webpack rollup
     }
   ```
 
-### Projects with nice configs
+* <https://github.com/okwolf/hyperapp-effects/blob/master/package.json>
 
-<https://github.com/lingui/js-lingui>
-<https://github.com/thejameskyle/unstated>
+```json
+  "name": "hyperapp-effects",
+  "version": "0.5.2",
+  "description": "Effects as data for Hyperapp",
+  "main": "dist/effects.js",
+  "jsnext:main": "src/index.js",
+  "module": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okwolf/hyperapp-effects.git"
+  },
+  "peerDependencies": {
+    "hyperapp": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "hyperapp": "^1.1.1",
+    "jest": "^21.2.1",
+    "prettier": "^1.8.2",
+    "rollup": "^0.55.5"
+  },
+  "scripts": {
+    "test": "jest --coverage --no-cache",
+    "bundle": "rollup -i src/index.js -o dist/effects.js -f umd -n effects",
+    "prepare": "npm run bundle",
+    "format": "prettier --semi false --write '{src,test}/**/*.js'"
+  },
+  "babel": {
+    "presets": "env"
+  },
+  "author": "Wolfgang Wedemeyer <wolf@okwolf.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/okwolf/hyperapp-effects/issues"
+  },
+  "homepage": "https://github.com/okwolf/hyperapp-effects"
+}
+```
+
+### Projects with nice configs
+* <https://github.com/buehler/typescript-hero/>
+* <https://github.com/lingui/js-lingui>
+* <https://github.com/thejameskyle/unstated>
+* <https://github.com/okwolf/hyperapp-effects/blob/master/package.json>
+* <https://github.com/google/boardgame.io>

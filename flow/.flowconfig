@@ -4,18 +4,15 @@
 <PROJECT_ROOT>/build/.*
 <PROJECT_ROOT>/dist/.*
 <PROJECT_ROOT>/lib/.*
+<PROJECT_ROOT>/node_modules/.*
 
-# <PROJECT_ROOT>/.*/node_modules/y18n/.*
-# <PROJECT_ROOT>/node_modules/chrome-devtools-frontend/.*
-# <PROJECT_ROOT>/node_modules/devtools-timeline-model/.*
-# <PROJECT_ROOT>/.*/__mocks__/.*
-# <PROJECT_ROOT>/.*/__tests__/.*
 
 [include]
 <PROJECT_ROOT>/src/.*
 
 [libs]
 flow-typed/
+./flow-typed/libdefs.js
 
 [options]
 esproposal.class_static_fields=enable
