@@ -1,0 +1,50 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "expect": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 8
+  },
+  "rules": {
+    "strict": "off",
+    "class-methods-use-this": "off",
+    "no-param-reassign": "warn",
+    "no-bitwise":"warn",
+    "no-mixed-operators":"off",
+    "max-len":"warn",
+    "no-unused-vars":"warn",
+    "no-underscore-dangle": "warn",
+    "no-restricted-globals": "off",
+    "no-console": "off",
+    "no-plusplus": "off",
+    "indent": [
+      "error",
+      2
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ]
+  },
+  "overrides": [{
+    "files": "test/**/*test.js",
+    "env": {
+      "jest": true
+    }
+  }]
+}
