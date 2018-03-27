@@ -8,5 +8,7 @@
     "singleQuote": true,
     "tabWidth": 2,
     "trailingComma": "es5",
+    "insertPragma": false,
+    "requirePragma": false,
     "useTabs": false
 }

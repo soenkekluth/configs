@@ -1,0 +1,12 @@
+node_modules/
+package-lock.json
+fragmentTypes.json
+**/package.json
+**/locale/*
+**/node_modules/*
+**/flow-typed/*
+**/.tmp/*
+**/tmp/*
+**/.cache/*
+**/cache/*
+**/.history/*
