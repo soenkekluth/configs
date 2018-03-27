@@ -4,6 +4,7 @@ fragmentTypes.json
 **/package.json
 **/locale/*
 **/node_modules/*
+**/coverage/*
 **/flow-typed/*
 **/.tmp/*
 **/tmp/*

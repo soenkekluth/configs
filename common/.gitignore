@@ -17,6 +17,7 @@ chrome-user-data
 .idea
 *.iml
 .vscode
+/.vscode
 *.swp
 *.swo
 /tmp
@@ -25,3 +26,5 @@ chrome-user-data
 .history
 *.map
 yarn-error.log
+yalc.lock
+.yalc
