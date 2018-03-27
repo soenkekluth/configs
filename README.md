@@ -7,12 +7,15 @@ config files for projects
 collection of npm / package scripts & configs of babel webpack rollup
 
 ### Projects with nice configs
+* https://github.com/xing/hops
+* https://github.com/NYTimes/react-tracking
 * <https://github.com/buehler/typescript-hero/>
 * <https://github.com/lingui/js-lingui>
 * <https://github.com/thejameskyle/unstated>
 * <https://github.com/okwolf/hyperapp-effects/blob/master/package.json>
 * <https://github.com/google/boardgame.io>
 * [https://github.com/Sly777/ran/tree/beta](https://github.com/Sly777/ran/tree/beta)
+* <https://github.com/ory/editor>
 
 ### Editor themes
 
