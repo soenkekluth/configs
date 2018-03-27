@@ -1,0 +1,13 @@
+{
+  "lerna": "2.9.0",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": ["packages/*"],
+  "version": "0.1.0",
+  "commands": {
+    "publish": {
+      "message": "chore: release %s",
+      "exact": true
+    }
+  }
+}
