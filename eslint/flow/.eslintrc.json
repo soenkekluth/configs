@@ -1,0 +1,55 @@
+{
+  "env": {
+    "jest/globals": true,
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "arrowFunctions": true,
+      "binaryLiterals": false,
+      "blockBindings": true,
+      "classes": true,
+      "defaultParams": true,
+      "destructuring": true,
+      "forOf": true,
+      "generators": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true,
+      "objectLiteralComputedProperties": true,
+      "objectLiteralDuplicateProperties": false,
+      "objectLiteralShorthandMethods": true,
+      "objectLiteralShorthandProperties": true,
+      "octalLiterals": false,
+      "regexUFlag": false,
+      "regexYFlag": false,
+      "restParams": true,
+      "spread": true,
+      "superInFunctions": true,
+      "templateStrings": true,
+      "unicodePointEscapes": true,
+      "globalReturn": false,
+      "jsx": true
+    }
+  },
+  "extends": [
+    "plugin:flowtype/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "plugins": [
+    "promise",
+    "flowtype",
+    "import",
+    "jest",
+    "prettier"
+  ],
+
+  "rules": {
+    "no-duplicate-imports": "off",
+    "prettier/prettier": "error",
+    "flowtype/no-types-missing-file-annotation":"off"
+  }
+}

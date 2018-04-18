@@ -7,89 +7,94 @@ config files for projects
 collection of npm / package scripts & configs of babel webpack rollup
 
 ### Projects with nice configs
-* https://github.com/xing/hops
-* https://github.com/NYTimes/react-tracking
-* <https://github.com/buehler/typescript-hero/>
-* <https://github.com/lingui/js-lingui>
-* <https://github.com/thejameskyle/unstated>
-* <https://github.com/okwolf/hyperapp-effects/blob/master/package.json>
-* <https://github.com/google/boardgame.io>
-* [https://github.com/Sly777/ran/tree/beta](https://github.com/Sly777/ran/tree/beta)
-* <https://github.com/ory/editor>
+
+- [https://github.com/launchjs/app](https://github.com/launchjs/app)
+- [https://github.com/launchjs/styles](https://github.com/launchjs/styles)
+- [https://github.com/xing/hops](https://github.com/xing/hops)
+- [https://github.com/NYTimes/react-tracking](https://github.com/NYTimes/react-tracking)
+- https://github.com/buehler/typescript-hero/
+- [https://github.com/lingui/js-lingui](https://github.com/lingui/js-lingui)
+- [https://github.com/thejameskyle/unstated](https://github.com/thejameskyle/unstated)
+- [https://github.com/okwolf/hyperapp-effects/blob/master/package.json](https://github.com/okwolf/hyperapp-effects/blob/master/package.json)
+- [https://github.com/google/boardgame.io](https://github.com/google/boardgame.io)
+- [https://github.com/Sly777/ran/tree/beta](https://github.com/Sly777/ran/tree/beta)
+- [https://github.com/ory/editor](https://github.com/ory/editor)
 
 ### Editor themes
 
-* <https://colorsublime.github.io/>
+- [https://colorsublime.github.io/](https://colorsublime.github.io/)
 
 ### typescript
-
-* <https://www.typescriptlang.org/samples/index.html>
+- [https://github.com/launchjs/app](https://github.com/launchjs/app)
+- [https://www.typescriptlang.org/samples/index.html](https://www.typescriptlang.org/samples/index.html)
 
 ### babel
 
-* <https://github.com/fengyuanchen/cropperjs/blob/master/.babelrc>
-* <https://github.com/aikar/create-flow-pkg/blob/master/skel/.babelrc.js>
-* <https://github.com/heroku/cli-engine/blob/master/.babelrc>
+- [https://github.com/fengyuanchen/cropperjs/blob/master/.babelrc](https://github.com/fengyuanchen/cropperjs/blob/master/.babelrc)
+- [https://github.com/aikar/create-flow-pkg/blob/master/skel/.babelrc.js](https://github.com/aikar/create-flow-pkg/blob/master/skel/.babelrc.js)
+- [https://github.com/heroku/cli-engine/blob/master/.babelrc](https://github.com/heroku/cli-engine/blob/master/.babelrc)
 
 ### rollup
 
-* <https://github.com/jaredpalmer/react-fns/blob/master/rollup.config.js>
-* <https://github.com/fengyuanchen/cropperjs/blob/master/rollup.config.js>
-* <https://github.com/ThrivingKings/animo/blob/master/build.js>
-* <https://github.com/concretesolutions/redux-zero/blob/master/rollup.config.js>
-* <https://github.com/jaredpalmer/react-fns/blob/master/rollup.config.js>
-* <https://github.com/Rich-Harris/degit/blob/master/rollup.config.js>
+- [https://github.com/jaredpalmer/react-fns/blob/master/rollup.config.js](https://github.com/jaredpalmer/react-fns/blob/master/rollup.config.js)
+- [https://github.com/fengyuanchen/cropperjs/blob/master/rollup.config.js](https://github.com/fengyuanchen/cropperjs/blob/master/rollup.config.js)
+- [https://github.com/ThrivingKings/animo/blob/master/build.js](https://github.com/ThrivingKings/animo/blob/master/build.js)
+- [https://github.com/concretesolutions/redux-zero/blob/master/rollup.config.js](https://github.com/concretesolutions/redux-zero/blob/master/rollup.config.js)
+- [https://github.com/jaredpalmer/react-fns/blob/master/rollup.config.js](https://github.com/jaredpalmer/react-fns/blob/master/rollup.config.js)
+- [https://github.com/Rich-Harris/degit/blob/master/rollup.config.js](https://github.com/Rich-Harris/degit/blob/master/rollup.config.js)
 
 ### webpack
 
-* <https://github.com/Shopify/draggable/blob/master/webpack.config.js>
+- [https://github.com/Shopify/draggable/blob/master/webpack.config.js](https://github.com/Shopify/draggable/blob/master/webpack.config.js)
 
 ### flow
 
-* <https://github.com/aikar/create-flow-pkg/blob/master/skel/.flowconfig>
-* <https://github.com/cssinjs/jss/blob/master/.flowconfig>
-* <https://github.com/heroku/cli-engine/blob/master/.eslintrc>
+- [https://github.com/aikar/create-flow-pkg/blob/master/skel/.flowconfig](https://github.com/aikar/create-flow-pkg/blob/master/skel/.flowconfig)
+- [https://github.com/cssinjs/jss/blob/master/.flowconfig](https://github.com/cssinjs/jss/blob/master/.flowconfig)
+- [https://github.com/heroku/cli-engine/blob/master/.eslintrc](https://github.com/heroku/cli-engine/blob/master/.eslintrc)
 
 ### lerna
 
-* <https://github.com/lingui/js-lingui/blob/master/lerna.json>
+- [https://github.com/lingui/js-lingui/blob/master/lerna.json](https://github.com/lingui/js-lingui/blob/master/lerna.json)
 
 ### circle ci
 
-* <https://github.com/lingui/js-lingui/blob/master/circle.yml>
+- [https://github.com/lingui/js-lingui/blob/master/circle.yml](https://github.com/lingui/js-lingui/blob/master/circle.yml)
 
 ### eslint
-* <https://medium.com/@netczuk/your-last-eslint-config-9e35bace2f99>
-* <https://github.com/amilajack/eslint-plugin-compat>
-* <https://github.com/synacor/eslint-config-synacor>
-* <https://github.com/aikar/create-flow-pkg/blob/master/skel/.eslintrc.json>
-* <https://github.com/lingui/js-lingui/blob/master/.eslintrc>
-* <https://github.com/lingui/js-lingui/blob/master/.eslintignore>
-* <https://github.com/heroku/cli-engine/blob/master/.eslintrc>
+
+- [https://medium.com/@netczuk/your-last-eslint-config-9e35bace2f99](https://medium.com/@netczuk/your-last-eslint-config-9e35bace2f99)
+- [https://github.com/amilajack/eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat)
+- [https://github.com/synacor/eslint-config-synacor](https://github.com/synacor/eslint-config-synacor)
+- [https://github.com/aikar/create-flow-pkg/blob/master/skel/.eslintrc.json](https://github.com/aikar/create-flow-pkg/blob/master/skel/.eslintrc.json)
+- [https://github.com/lingui/js-lingui/blob/master/.eslintrc](https://github.com/lingui/js-lingui/blob/master/.eslintrc)
+- [https://github.com/lingui/js-lingui/blob/master/.eslintignore](https://github.com/lingui/js-lingui/blob/master/.eslintignore)
+- [https://github.com/heroku/cli-engine/blob/master/.eslintrc](https://github.com/heroku/cli-engine/blob/master/.eslintrc)
 
 ### browserconfig
-* <https://github.com/ai/browserslist-example>
-* <https://github.com/amilajack/eslint-plugin-compat>
+
+- [https://github.com/ai/browserslist-example](https://github.com/ai/browserslist-example)
+- [https://github.com/amilajack/eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat)
 
 ### postcss
 
-* <https://github.com/fengyuanchen/cropperjs/blob/master/postcss.config.js>
-* <https://github.com/jonathantneal/postcss-preset-env>
+- [https://github.com/fengyuanchen/cropperjs/blob/master/postcss.config.js](https://github.com/fengyuanchen/cropperjs/blob/master/postcss.config.js)
+- [https://github.com/jonathantneal/postcss-preset-env](https://github.com/jonathantneal/postcss-preset-env)
 
 ### tsconfig
 
-* <https://github.com/concretesolutions/redux-zero/blob/master/tsconfig.json>
-* <https://github.com/concretesolutions/redux-zero/blob/master/src/preact/tsconfig.json>
-* <https://github.com/jaredpalmer/react-fns/blob/master/tsconfig.json>
+- [https://github.com/concretesolutions/redux-zero/blob/master/tsconfig.json](https://github.com/concretesolutions/redux-zero/blob/master/tsconfig.json)
+- [https://github.com/concretesolutions/redux-zero/blob/master/src/preac](https://github.com/concretesolutions/redux-zero/blob/master/src/preac)t/tsconfig.json>
+- [https://github.com/jaredpalmer/react-fns/blob/master/tsconfig.json](https://github.com/jaredpalmer/react-fns/blob/master/tsconfig.json)
 
 ### tslint
 
-* <https://github.com/pnpm/pnpm/blob/master/tslint.json>
-* <https://github.com/concretesolutions/redux-zero/blob/master/tslint.json>
+- [https://github.com/pnpm/pnpm/blob/master/tslint.json](https://github.com/pnpm/pnpm/blob/master/tslint.json)
+- [https://github.com/concretesolutions/redux-zero/blob/master/tslint.json](https://github.com/concretesolutions/redux-zero/blob/master/tslint.json)
 
 ### jest
 
-* <https://github.com/aikar/create-flow-pkg/blob/master/skel/jest.config.js>
+- [https://github.com/aikar/create-flow-pkg/blob/master/skel/jest.config.js](https://github.com/aikar/create-flow-pkg/blob/master/skel/jest.config.js)
 
   ```json
   "jest": {
@@ -115,7 +120,7 @@ collection of npm / package scripts & configs of babel webpack rollup
 
 ### package.json
 
-* <https://github.com/milligram/milligram/blob/master/package.json>
+- [https://github.com/milligram/milligram/blob/master/package.json](https://github.com/milligram/milligram/blob/master/package.json)
 
   ```json
   "scripts": {
@@ -137,7 +142,7 @@ collection of npm / package scripts & configs of babel webpack rollup
       }
   ```
 
-* <https://github.com/fengyuanchen/cropperjs/blob/master/package.json>
+- [https://github.com/fengyuanchen/cropperjs/blob/master/package.json](https://github.com/fengyuanchen/cropperjs/blob/master/package.json)
 
   ```json
   "scripts": {
@@ -157,7 +162,7 @@ collection of npm / package scripts & configs of babel webpack rollup
     },
   ```
 
-* <https://github.com/lodash/lodash-webpack-plugin/blob/master/package.json>
+- [https://github.com/lodash/lodash-webpack-plugin/blob/master/package.json](https://github.com/lodash/lodash-webpack-plugin/blob/master/package.json)
 
   ```json
   "scripts": {
@@ -168,7 +173,7 @@ collection of npm / package scripts & configs of babel webpack rollup
     }
   ```
 
-* <https://github.com/okwolf/hyperapp-effects/blob/master/package.json>
+- [https://github.com/okwolf/hyperapp-effects/blob/master/package.json](https://github.com/okwolf/hyperapp-effects/blob/master/package.json)
 
 ```json
   "name": "hyperapp-effects",
@@ -208,4 +213,3 @@ collection of npm / package scripts & configs of babel webpack rollup
   "homepage": "https://github.com/okwolf/hyperapp-effects"
 }
 ```
-
